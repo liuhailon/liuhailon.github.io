@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>检查异常和非检查异常</title>
+	</head>
+	<body>
+		<div style="width:500px; height:400px; font-size:18px;">
+			检查性异常和非检查性异常的区别<br/><br/>
+			1、所有的检查性异常都继承自java.lang.Exception；所有的非检查性异常都继承自java.lang.RuntimeEx ception。
+			<br/><br/>
+			2、检查性异常和非检查性异常最主要的区别在于其处理异常的方式：检查性异常必须使用try catch或者throws等关键字进行处理，否则编译器会报错;非检查性异常一般是程序代码写的不够严谨而导致的问题，可以通过修改代码来规避。
+			<br/><br/>
+			3、常见的运行时异常：空指针异常(NullPointerException)、除零异常(ArithmeticException)、数组越界异常(ArrayIndexOutOfBoundsException)等;
+			<br/><br/>
+			常见的检查性异常：输入输出异常(IOException)、文件不存在异常(FileNotFoundException)、SQL语句异常(SQLException)等。
+		</div>	
+	</body>
+</html>
