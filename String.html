@@ -1,0 +1,26 @@
+<html>
+	
+<head>
+		
+<title>字符串和字符串缓冲区</title>
+		
+</head>
+	
+<body>
+		
+	<div>
+		String：是字符串常量，该对象创建后不可更改。<br/>
+		Stringbuffer：是字符串变量，该对象创建后可以更改，在线程是安全的。<br/>
+
+		StringBuilder：是字符串变量，该对象创建后可以更改，在线程是不安全的。<br/><br/>
+		
+		对于三者的总结：<br/>
+				(1)如果操作少量的数据用String<br/>
+
+
+                                (2)单线程下操作大量的数据用StringBuilder<br/>
+
+                                (3)多线程下操作大量的数据用StringBuffer<br/>
+	</div>	
+</body>
+</html>
